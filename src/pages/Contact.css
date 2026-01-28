@@ -7,16 +7,16 @@
   
   /* PAGE */
   .contact-section {
-    background: #ffffff;
+    background: #19192c;
     padding: 120px 20px 180px 20px;
     text-align: center;
-    color: #19192c;
+    color: white;
   }
   
   /* MAIN HEADING */
   .main-heading {
     font-size: 2.7rem;
-    color: #00d4ff;
+    color: #19192c;
     margin-bottom: 10px;
   }
   
@@ -37,14 +37,14 @@
   /* FORM BOX */
   .contact-form {
     flex: 1;
-    background: #19192c;
+    background:  #f5f7fa;
     padding: 35px;
     border-radius: 16px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   }
   
   .contact-form h3 {
-    color: #00d4ff;
+    color: #19192c;
     margin-bottom: 20px;
     font-size: 1.4rem;
   }
@@ -72,7 +72,7 @@
   /* BUTTON */
   .contact-form button {
     width: 100%;
-    background: #00d4ff;
+    background: #19192c;
     color: #000;
     padding: 12px;
     border: none;
@@ -83,13 +83,13 @@
   }
   
   .contact-form button:hover {
-    background: #00b7db;
+    background: #8c9292;
   }
   
   /* DETAILS BOX */
   .contact-details {
     flex: 1;
-    background: #19192c;
+    background:  #f5f7fa;
     padding: 35px;
     border-radius: 16px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
@@ -97,12 +97,12 @@
   }
   
   .contact-details h3 {
-    color: #00d4ff;
+    color: #19192c;
     margin-bottom: 10px;
   }
   
   .details-text {
-    color: #ffffff;
+    color: #19192c;
     margin-bottom: 25px;
   }
   
@@ -112,7 +112,7 @@
   }
   
   .info-box svg {
-    background: #00d4ff;
+    background: #19192c;
     color: #000;
     width: 44px;
     height: 44px;
@@ -127,12 +127,12 @@
   
   
   .info-box h4 {
-    color: #ffffff;
+    color: #19192c;
     font-size: 1rem;
   }
   
   .info-box p {
-    color: #cfd8dc;
+    color: #19192c;
     font-size: 0.9rem;
   }
   
@@ -145,12 +145,12 @@
     margin-right: 15px;
     font-size: 18px;
     cursor: pointer;
-    color: #00d4ff;
+    color: #1f1d1d;
     transition: 0.3s;
   }
   
   .social svg:hover {
-    color: #ffffff;
+    color: #8f8b8b;
   }
   
   /* RESPONSIVE */

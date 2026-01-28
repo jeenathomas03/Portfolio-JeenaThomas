@@ -1,0 +1,88 @@
+/* =========================
+   SECTION BASE
+========================= */
+.edu-exp {
+    padding: 100px 20px;
+    background: #ffffff;
+    color: #19192c;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 60px;
+  }
+  
+  /* =========================
+     TIMELINE LAYOUT
+  ========================= */
+  .timeline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  .timeline-column h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    color: #00d4ff;
+  }
+  
+  /* =========================
+     CARD STYLE
+  ========================= */
+  .card {
+    background: #f5f7fa;
+    padding: 25px;
+    border-radius: 16px;
+    text-align: left;
+    margin-bottom: 25px;
+  
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0, 212, 255, 0.25);
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .year {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: #00d4ff;
+    font-weight: 600;
+  }
+  
+  /* =========================
+     RESPONSIVE
+  ========================= */
+  @media (max-width: 768px) {
+    .timeline {
+      grid-template-columns: 1fr;
+    }
+  
+    .section-title {
+      font-size: 2rem;
+    }
+  }
+  

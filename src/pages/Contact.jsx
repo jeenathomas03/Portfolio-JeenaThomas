@@ -1,13 +1,13 @@
 import "./Contact.css";
 import { FaMapMarkerAlt, FaPhone, FaClock, FaEnvelope } from "react-icons/fa";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn,FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <section className="contact-section" id="contact">
       <h1>Contact Details</h1>
       <p className="subtitle">
-        Feel free to reach out. We’d love to hear from you.
+        {/* Feel free to reach out. We’d love to hear from you. */}
       </p>
 
       <div className="contact-container">
@@ -32,7 +32,6 @@ const Contact = () => {
         <div className="contact-details">
           <h3>Contact Details</h3>
           <p className="details-text">
-            You can contact us using the information below.
           </p>
 
           <div className="info-box">
@@ -52,7 +51,7 @@ const Contact = () => {
           </div>
 
           <div className="info-box">
-            <FaEnvelope />
+            <a href="mailto:jeenathomas53@gmail.com"><FaEnvelope /></a>
             <div>
               <h4>Email</h4>
               <p>jeenathomas53@gmail.com</p>
@@ -60,7 +59,8 @@ const Contact = () => {
           </div>
 
           <div className="social">
-            <FaLinkedinIn />
+           <a href="https://github.com/jeenathomas03"><FaGithub /></a>
+           <a href="https://www.linkedin.com/in/jeena-thomas-8893ba313"> <FaLinkedinIn /></a>
           </div>
         </div>
       </div>
