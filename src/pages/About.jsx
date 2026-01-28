@@ -7,24 +7,21 @@ const About = () => {
         <h1>About Me</h1>
 
         <p>
-  Hi, I’m <strong>Jeena Thomas</strong>, a passionate and detail-oriented
-  Full Stack Developer who loves turning ideas into functional and visually
-  appealing web applications.
-</p>
+          Hi, I’m <strong>Jeena Thomas</strong>, a passionate and detail-oriented
+          Full Stack Developer who loves turning ideas into functional and visually
+          appealing web applications.
+        </p>
 
-<p>
-  I specialize in building modern, responsive, and user-friendly websites
-  using technologies like React, Node.js, Express, and MongoDB. I enjoy
-  working on both frontend and backend, which helps me understand complete
-  application workflows.
-</p>
+        <p>
+          I specialize in building modern, responsive, and user-friendly websites
+          using technologies like React, Node.js, Express, and MongoDB.
+        </p>
 
-<p>
-  During my learning journey, I have built multiple projects that strengthened
-  my problem-solving abilities and improved my understanding of real-world
-  development practices such as authentication, API integration, and database
-  management.
-</p>
+        <p>
+          During my learning journey, I have built multiple projects that strengthened
+          my problem-solving abilities and improved my understanding of real-world
+          development practices.
+        </p>
 
         <h3>Skills</h3>
         <ul className="skills">
@@ -33,11 +30,14 @@ const About = () => {
           <li>Node.js & Express</li>
           <li>MongoDB</li>
           <li>Git & GitHub</li>
-          <li>vite</li>
-          <li>Php</li>
-          <li>Codeingniter</li>
+          <li>Vite</li>
+          <li>PHP</li>
+          <li>CodeIgniter</li>
           <li>MySQL</li>
+          <li>Python</li>
         </ul>
+
+
       </div>
     </section>
   );
