@@ -1,37 +1,19 @@
 import "./Contact.css";
-import { FaMapMarkerAlt, FaPhone, FaClock, FaEnvelope } from "react-icons/fa";
-import { FaLinkedinIn,FaGithub } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <section className="contact-section" id="contact">
       <h1>Contact Details</h1>
-      <p className="subtitle">
-        {/* Feel free to reach out. We’d love to hear from you. */}
-      </p>
 
-      <div className="contact-container">
-        {/* FORM */}
-        <div className="contact-form">
-          <h3>Connect with Me</h3>
-
-          <form>
-            <div className="row">
-              <input type="text" placeholder="Your Name" />
-              <input type="email" placeholder="Your Email" />
-            </div>
-
-            <input type="text" placeholder="Subject" />
-            <textarea placeholder="Your Message"></textarea>
-
-            <button type="submit">Send Message</button>
-          </form>
-        </div>
-
-        {/* DETAILS */}
+      <div className="contact-container single">
+        {/* DETAILS ONLY */}
         <div className="contact-details">
-          <h3>Contact Details</h3>
+          <h3>Get in Touch</h3>
           <p className="details-text">
+            {/* Feel free to reach out to me for collaborations, job opportunities,
+            or any queries. */}
           </p>
 
           <div className="info-box">
@@ -51,16 +33,27 @@ const Contact = () => {
           </div>
 
           <div className="info-box">
-            <a href="mailto:jeenathomas53@gmail.com"><FaEnvelope /></a>
+            <FaEnvelope />
             <div>
               <h4>Email</h4>
-              <p>jeenathomas53@gmail.com</p>
+              <p>
+                <a href="mailto:jeenathomas53@gmail.com">
+                  jeenathomas53@gmail.com
+                </a>
+              </p>
             </div>
           </div>
 
           <div className="social">
-           <a href="https://github.com/jeenathomas03"><FaGithub /></a>
-           <a href="https://www.linkedin.com/in/jeena-thomas-8893ba313"> <FaLinkedinIn /></a>
+            <a href="https://github.com/jeenathomas03" target="_blank">
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jeena-thomas-8893ba313"
+              target="_blank"
+            >
+              <FaLinkedinIn />
+            </a>
           </div>
         </div>
       </div>

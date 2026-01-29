@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="logo">Jeena Thomas</div>
 
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-        {["home", "about", "projects","education & Experiences","contact"].map((item) => (
+        {["home", "about", "projects","education&Experience","contact"].map((item) => (
           <li key={item}>
             <a
               href={`#${item}`}

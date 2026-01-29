@@ -2,7 +2,7 @@ import "./EducationExperience.css";
 
 const EducationExperience = () => {
   return (
-    <section id="education-experience" className="edu-exp">
+    <section id="education&Experience" className="edu-exp">
       <h1 className="section-title">Education & Experience</h1>
       <p className="section-subtitle">
         My academic background and professional journey
@@ -15,15 +15,15 @@ const EducationExperience = () => {
           <h2>Education</h2>
 
           <div className="card">
-            <span className="year">2022 – 2025</span>
+            <span className="year">2021 – 2024</span>
             <h3>Bachelor of Computer Applications (BCA)</h3>
             <p>UIT Kottarakara, Kerala University</p>
           </div>
 
           <div className="card">
-            <span className="year">2024 – 2025</span>
-            <h3>Full Stack Development (MERN)</h3>
-            <p>Mashup Stack, Kochi</p>
+            <span className="year">2021 – 2024</span>
+            <h3>Php intern</h3>
+            <p>Softzane Solutions, Ayoor</p>
           </div>
         </div>
 
@@ -32,11 +32,10 @@ const EducationExperience = () => {
           <h2>Experience</h2>
 
           <div className="card">
-            <span className="year">2025 – Present</span>
+            <span className="year">2025</span>
             <h3>AEM Developer Intern</h3>
             <p>
-              Working with Adobe Experience Manager, component development,
-              templates, and content management.
+              Ladder7,Trivandrum
             </p>
           </div>
 
@@ -44,8 +43,7 @@ const EducationExperience = () => {
             <span className="year">2024</span>
             <h3>Full Stack Intern</h3>
             <p>
-              Built MERN stack applications, REST APIs, authentication,
-              and admin dashboards.
+            Mashup Stack, Trivandrum
             </p>
           </div>
         </div>
