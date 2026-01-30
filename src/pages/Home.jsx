@@ -15,7 +15,7 @@ const Home = () => {
 
         <div className="home-buttons">
           <a
-            href="/Jeena_Thomas_cv_.pdf"
+            href="/Jeena_Thomas-cv.pdf"
             download
             className="btn primary"
           >
