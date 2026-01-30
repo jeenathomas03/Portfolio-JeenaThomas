@@ -13,7 +13,7 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="footer-social">
           <a
-            href="https://facebook.com/"
+            href="https://www.facebook.com/share/17xSVJGPjJ/"
             target="_blank"
             rel="noreferrer"
             aria-label="Facebook"
@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://instagram.com/"
+            href="https://instagram.com/jeena_thomas__"
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram"

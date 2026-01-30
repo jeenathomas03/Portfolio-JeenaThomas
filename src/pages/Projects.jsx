@@ -47,7 +47,7 @@ const Projects = () => {
                 The system is developed using Python.
              </p>
         </div>
-        <div className="project-card">
+        {/* <div className="project-card">
         <h3>MediTrack</h3>
              <p>
                 MediTrack is a Medical Store Management System designed to efficiently
@@ -55,8 +55,8 @@ const Projects = () => {
                 keep track of medicines, sales, and stock in an organized and user-friendly way.
                 The system is developed using Python.
              </p>
-        </div>
-        <div className="project-card">
+        </div> */}
+        {/* <div className="project-card">
         <h3>MediTrack</h3>
              <p>
                 MediTrack is a Medical Store Management System designed to efficiently
@@ -64,7 +64,7 @@ const Projects = () => {
                 keep track of medicines, sales, and stock in an organized and user-friendly way.
                 The system is developed using Python.
              </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );
