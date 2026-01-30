@@ -12,8 +12,6 @@ const Contact = () => {
         <div className="contact-details">
           <h3>Get in Touch</h3>
           <p className="details-text">
-            {/* Feel free to reach out to me for collaborations, job opportunities,
-            or any queries. */}
           </p>
 
           <div className="info-box">

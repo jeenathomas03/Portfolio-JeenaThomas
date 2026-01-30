@@ -8,7 +8,7 @@
 /* PAGE */
 .contact-section {
   background: #19192c;
-  padding: 150px 20px 120px 20px;
+  padding: 170px 20px 200px 20px;
   text-align: center;
   color: white;
 }
@@ -16,7 +16,7 @@
 /* HEADING */
 .contact-section h1 {
   font-size: 2.5rem;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 /* CONTAINER */
@@ -30,7 +30,7 @@
 /* CONTACT CARD */
 .contact-details {
   background: #f5f7fa;
-  padding: 40px;
+  padding: 60px;
   border-radius: 16px;
   width: 100%;
   max-width: 520px;
@@ -55,7 +55,7 @@
 /* INFO ROW */
 .info-box {
   display: flex;
-  gap: 15px;
+  gap: 16px;
   margin-bottom: 20px;
   align-items: center;
 }
